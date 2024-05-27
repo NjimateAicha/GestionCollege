@@ -1,0 +1,36 @@
+
+
+.bg-form{
+    -fx-background-color: linear-gradient(to bottom right, #ffffff , #ffffff );
+}
+
+.header{
+    -fx-border-color: linear-gradient(to bottom right, #FFA07A , #FFA07A);
+    -fx-border-width: 0 0 0 3px;
+    -fx-padding: 0 0 0 5px;
+    -fx-font-size: 20px;
+}
+
+.textfield{
+    -fx-background-color: transparent;
+    -fx-padding: 0 0 0 25px;
+    -fx-border-color: linear-gradient(to bottom right, #1B4F72  , #1B4F72);
+    -fx-border-width: .8px;
+    -fx-text-fill: #56adff;
+    -fx-font-size: 14px;
+}
+.textfield:focused{
+    -fx-background-color: #fffffff;
+    -fx-text-fill: #1B4F72;
+    -fx-border-width: 1px;
+}
+
+.btn{
+    -fx-background-color: linear-gradient(to bottom right, #1B4F72 , #1B4F72);
+    -fx-font-family: Arial;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+.btn:hover{
+    -fx-background-color: #56adff;
+}
